@@ -1,6 +1,37 @@
 # STM32_workshop
 Repo de código e información acerca del taller de programación de microcontroladores ARM organizado por el IEA-UMSA
 
+## Objetivo del taller
+
+Este taller tiene el objetivo de brindar una capacitación práctica en el uso y programación de sistemas embebidos con microcontroladores de la familia ARM Cortex M, en específico de la serie STM32 del fabricante ST. Esto con el objetivo de brindar una herramienta de desarrollo de sistemas embebidos y de tiempo real robustos.
+
+## Temario del taller
+
+El contenido propuesto del taller abarca desde una introducción a la arquitectura arm, pasando por la descripción y programación de periféricos de la familia STM32 hasta conceptos y aplicaciones de sistemas operativos de tiempo real (RTOS). El contenido programático se describe a continuación:
+
+  - Primer día:
+    * Introducción a ARM, arquitectura y características, la familia Cortex M.
+    * Introducción a STM32, características y periféricos
+    * Entorno de configuración: STM32 CubeMx
+    * Entorno de desarrollo: Keil uVision.
+    * Hello world.
+    * Entradas y salidas digitales.
+  - Segundo día:
+    * Interrupciones Externas.
+    * ADC.
+    * UART.
+  - Tercer día:
+    * Timers.
+    * PWM.
+    * i2c.
+  - Cuarto día:
+    * Introducción a sistemas de tiempo real y RTOS.
+    * Introducción a FreeRTOS.
+    * Tareas en FreeRTOS.
+  - Quinto día:
+    * Queues y comunicación inter-tareas.
+    * Semáforos y notificaciones para eventos asíncronos.
+  
 ## Recursos
 
 ### Documentación técnica y de referencia
@@ -43,6 +74,8 @@ Por su parte, necesitaremos descargar paquetes específicos para la plataforma S
   - **[Keil uVision Software Packs.](https://www.keil.com/dd2/pack/#/eula-container)** Los paquetes de software de Keil contienen archivos de cabecera, drivers y utilidades específicas para cada familia y dispositivo, una vez en la página, se debe buscar el paquete correspondiente a la serie STM32F1 y descargarlo. Luego, instalar el paquete. Es posible también instalar los paquetes desde el entorno de Keil directamente de internet.
   - **[STM32F1 HAL Libraries.](http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-embedded-software/stm32cubef1.html)** Archivos de las librerías HAL. Contienen el código fuente, plantillas y ejemplos sobre lenguaje C. Este paquete se puede descargar también desde la herramienta Cube MX.
 
+## Desarrollo del taller
+Este taller tiene el objetivo de 
   
 
 
